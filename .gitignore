@@ -1,0 +1,22 @@
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Builds]/
+/[Logs]/
+/[MemoryCaptures]/
+/[UserSettings]/
+
+# Archivos de solución de Visual Studio
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.diag
+*.targets
+
+# Archivos temporales del SO
+.DS_Store
+Thumbs.db
