@@ -60,12 +60,25 @@
         "*.asset": "yaml",
         "*.meta": "yaml",
         "*.prefab": "yaml",
-        "*.unity": "yaml",
+        "*.unity": "yaml"
     },
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "on"
+    },
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.snippetSuggestions": "inline",
+    "editor.suggestOnTriggerCharacters": true,
+    "terminal.integrated.suggest.inlineSuggestion": "alwaysOnTop",
+    "editor.inlineSuggest.edits.showCollapsed": true,
+    "editor.inlineSuggest.triggerCommandOnProviderChange": true,
+    "terminal.integrated.suggest.suggestOnTriggerCharacters": true,
+    "liveServer.settings.multiRootWorkspaceName": "my zany vehicule",
     "dotnet.defaultSolution": "my zany vehicule.slnx"
 }
