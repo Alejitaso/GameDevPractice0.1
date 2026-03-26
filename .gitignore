@@ -2,21 +2,66 @@
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
-/[Builds]/
-/[Logs]/
-/[MemoryCaptures]/
-/[UserSettings]/
+/[Bb]uilds/
+/[Ll]logs/
+/[Uu]ser[Ss]ettings/
 
+# Archivos de memoria y temporales
+
+/[Mm]MemoryCaptures/
+/[Rr]Recordings/
+/[Aa]ssets/Plugins/Editor/JetBrains*
 # Archivos de solución de Visual Studio
+.vs/
+
+.gradle/
+
+# Autoregenerated VS/MD/consulo solution and project files
+ExportedObj/
+.consulo
 *.csproj
+*.unityproj
 *.sln
 *.suo
+*.tmp
 *.user
 *.userprefs
 *.pidb
-*.diag
-*.targets
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# crashLytics generated file
+crashLytics-build.properties
+
+# Packed Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Temporary auto-generated Android Assets
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Ignore Builds and generate symbols
+/[Bb]uilds/
+/[Bb]uild/
+*.symbols.zip
+*.apk
+*.aab
+*._BackUpThisFolder_ButDontShipItWithYourGame/
 
 # Archivos temporales del SO
 .DS_Store
 Thumbs.db
+
+# Crash reports de Unity
+sysinfo.txt

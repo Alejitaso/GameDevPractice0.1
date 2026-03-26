@@ -3,7 +3,7 @@ using UnityEngine;
 public class Flycanon : MonoBehaviour
 {
     [SerializeField] float Speed = 1.0f;
-    [SerializeField] Transform player;
+    [SerializeField] Transform target;
     Vector3 playerPosition;
 
     void Awake()
@@ -12,7 +12,7 @@ public class Flycanon : MonoBehaviour
     }
     void Start()
     {
-        playerPosition = player.transform.position;
+        playerPosition = target.transform.position;
     }
 
     

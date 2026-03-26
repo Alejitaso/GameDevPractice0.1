@@ -8,7 +8,7 @@ public class EnergyFieldHit : MonoBehaviour
     {
         if (other.gameObject.tag == "Player" && other.TryGetComponent<Health>(out Health health))
         {
-            health.TakeDamage(damageAmount * Time.deltaTime);
+            health.TakeDamage(damageAmount * Time.fixedDeltaTime);
         }
          
     }

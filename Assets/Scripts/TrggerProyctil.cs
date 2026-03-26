@@ -2,21 +2,20 @@ using UnityEngine;
 
 public class TrggerProyctil : MonoBehaviour
 {
-    [SerializeField] GameObject projectile01;
-    [SerializeField] GameObject projectile02;
-    [SerializeField] GameObject projectile03;
-    [SerializeField] GameObject projectile04;
-    [SerializeField] GameObject projectile05;
+    [SerializeField] GameObject[] proyectiles;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.CompareTag("Player"))
         {
-            projectile01.SetActive(true);
-            projectile02.SetActive(true);
-            projectile03.SetActive(true);
-            projectile04.SetActive(true);
-            projectile05.SetActive(true);
+            foreach (GameObject proyectile in proyectiles)
+            {
+                if (proyectile != null)
+                {
+                    proyectile.SetActive(true);
+                }
+            }
+
             Destroy(gameObject);
         }
     }

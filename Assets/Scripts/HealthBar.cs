@@ -3,22 +3,22 @@ using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
-    [SerializeField] private Health healthPlayer;
+    [SerializeField] private Health healthObject;
     [SerializeField] private Image imageFill;
 
     private void OnEnable()
     {
-        if (healthPlayer != null)
+        if (healthObject != null)
         {
-            healthPlayer.OnHealthChanged += UpdateBar;
+            healthObject.OnHealthChanged += UpdateBar;
         }
     }
 
     private void OnDisable()
     {
-        if (healthPlayer != null)
+        if (healthObject != null)
         {
-            healthPlayer.OnHealthChanged -= UpdateBar;
+           healthObject.OnHealthChanged -= UpdateBar;
         }    
     }
 
