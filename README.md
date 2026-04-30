@@ -37,4 +37,4 @@ Obstacle Dodge is a simple yet functional arcade-style game set in the deep ocea
 
 ---
 
-## Just use the awsd to move 
+## Just use the arrows to move 
