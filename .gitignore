@@ -1,18 +1,20 @@
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]logs/
-/[Uu]ser[Ss]ettings/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
 
 # Archivos de memoria y temporales
 
-/[Mm]MemoryCaptures/
-/[Rr]Recordings/
-/[Aa]ssets/Plugins/Editor/JetBrains*
+[Mm]MemoryCaptures/
+[Rr]Recordings/
+[Aa]ssets/Plugins/Editor/JetBrains*
 # Archivos de solución de Visual Studio
 .vs/
+.idea
+.vscode/
 
 .gradle/
 
@@ -45,15 +47,15 @@ ExportedObj/
 crashLytics-build.properties
 
 # Packed Addressables
-/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 
 # Temporary auto-generated Android Assets
-/[Aa]ssets/[Ss]treamingAssets/aa.meta
-/[Aa]ssets/[Ss]treamingAssets/aa/*
+[Aa]ssets/[Ss]treamingAssets/aa.meta
+[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # Ignore Builds and generate symbols
-/[Bb]uilds/
-/[Bb]uild/
+[Bb]uilds/
+[Bb]uild/
 *.symbols.zip
 *.apk
 *.aab

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6445462999040694238}
   - component: {fileID: 8539532844460091133}
   - component: {fileID: 7204668995914324865}
-  - component: {fileID: 4882273448313844638}
+  - component: {fileID: 6252199241859292339}
   m_Layer: 0
   m_Name: EnergyField 1
   m_TagString: Untagged
@@ -127,9 +127,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dbbfc005cd7bff4dba8ceebb104119a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EfectoPulso
-  velocidad: 3
-  amplitud: 6
---- !u!114 &4882273448313844638
+  speed: 2
+  scale: 3
+--- !u!114 &6252199241859292339
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -269,8 +269,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dbbfc005cd7bff4dba8ceebb104119a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EfectoPulso
-  velocidad: 3
-  amplitud: 0.06
+  speed: 2
+  scale: 0.1
 --- !u!114 &2068545847174683301
 MonoBehaviour:
   m_ObjectHideFlags: 0
